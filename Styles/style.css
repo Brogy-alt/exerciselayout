@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    display: flex;
+    gap: 5em;
+    height: 100vh;
+}
+
+
+.left-side {
+    background-color: aquamarine;
+    width: 100em;
+    
+}
+
+.main {
+    background-color: darkcyan;
+    width: 50em;
+    height: 15em;
+    justify-content: center;
+    align-self: center;
+}
+
+.right-side {
+    background-color:darkblue;
+    width: 100em;
+}
